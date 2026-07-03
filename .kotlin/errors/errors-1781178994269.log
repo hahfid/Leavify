@@ -1,0 +1,18 @@
+kotlin version: 2.0.21
+error message: The daemon has terminated unexpectedly on startup attempt #1 with error code: 1. The daemon process output:
+    1. #
+    2. # There is insufficient memory for the Java Runtime Environment to continue.
+    3. # Native memory allocation (malloc) failed to allocate 1048576 bytes. Error detail: AllocateHeap
+    4. # An error report file with more information is saved as:
+    5. # C:\Users\HAFIDD\AppData\Local\kotlin\daemon\hs_err_pid3288.log
+
+error message: The daemon has terminated unexpectedly on startup attempt #2 with error code: 1. The daemon process output:
+    1. #
+    2. # There is insufficient memory for the Java Runtime Environment to continue.
+    3. # Native memory allocation (malloc) failed to allocate 1048576 bytes. Error detail: AllocateHeap
+    4. # An error report file with more information is saved as:
+    5. # C:\Users\HAFIDD\AppData\Local\kotlin\daemon\hs_err_pid17808.log
+Problems may have occurred during auto-selection of GC. The preferred GC is Parallel GC.
+If the problems persist, try adding the JVM option to the Kotlin daemon JVM arguments: -XX:-UseParallelGC.
+GC auto-selection logic is disabled temporary for the next daemon startup.
+

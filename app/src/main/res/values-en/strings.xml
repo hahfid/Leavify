@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Leafivy</string>
+    
+    <!-- Home Screen -->
+    <string name="app_subtitle">Apple Leaf Disease Detector</string>
+    <string name="home_card_title">Identify Apple Leaf Diseases</string>
+    <string name="home_card_subtitle">Take a clear photo of a single leaf for the most accurate result.</string>
+    <string name="model_settings_title">Model Settings</string>
+    <string name="model_settings_label">Disease Model</string>
+    <string name="model_settings_info">Input: %1$dx%2$d x%3$d • %4$s • Classes: %5$d</string>
+    <string name="model_settings_empty">No models found in assets.</string>
+    <string name="close">Close</string>
+    <string name="model_settings_refresh">Refresh models</string>
+    <string name="diagnostics_title">Diagnostics</string>
+    <string name="diagnostics_subtitle">Photo checks</string>
+    <string name="diagnostics_tip_light">Use bright, even light and avoid harsh shadows.</string>
+    <string name="diagnostics_tip_single_leaf">Capture a single leaf; keep the background simple.</string>
+    <string name="diagnostics_tip_focus">Hold steady so the leaf is in sharp focus.</string>
+    <string name="diagnostics_tip_fill_frame">Fill most of the frame with the leaf.</string>
+    <string name="diagnostics_consensus_low">Models did not strongly agree. Try another photo.</string>
+    <string name="diagnostics_consensus_ok">Models show good agreement for this result.</string>
+    <string name="diagnostics_quality_title">Confidence meter</string>
+    <string name="diagnostics_quality_desc">Higher means the models agreed more strongly.</string>
+    <string name="diagnostics_model_version">Model version: %1$s</string>
+
+    <string name="result_explore_title">Explore next steps</string>
+    <string name="result_chart_title">Confidence chart</string>
+    <string name="about_privacy_title">About &amp; Privacy</string>
+    <string name="about_title">About Leafivy</string>
+    <string name="about_body">Leafivy helps identify apple leaf diseases using on-device machine learning. Images are processed locally on your phone.</string>
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_body">Your photos are not uploaded to any server by this app. No account is required. You stay in control of your data.</string>
+    <string name="copyright_line">© Hafd</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_grid_toggle">Toggle grid</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="btn_upload_gallery">Upload from Gallery</string>
+    <string name="cd_app_logo">Leafivy app logo</string>
+    <string name="cd_camera_icon">Camera icon</string>
+    <string name="cd_gallery_icon">Gallery icon</string>
+    
+    <!-- Camera Screen -->
+    <string name="cd_capture_button">Capture photo button</string>
+    <string name="cd_camera_preview">Camera preview</string>
+    <string name="cd_flash_toggle">Toggle flash</string>
+    
+    <!-- Result Screen -->
+    <string name="btn_analyze_another">Analyze Another</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_share">Share Result</string>
+    <string name="btn_process">Process Image</string>
+    <string name="btn_retake">Retake</string>
+    <string name="result_title">Analysis</string>
+    <string name="preview_title">Image Preview</string>
+    <string name="preview_hint">Make sure the apple leaf is clearly visible and not blurry before processing. Press Process Image to start the analysis.</string>
+    <string name="cd_preview_image">Preview of the apple leaf image to be analyzed</string>
+    <string name="error_title">We couldn\'t analyze this photo</string>
+    <string name="care_guide_title">Care Guide</string>
+    <string name="care_guide_show">Show details</string>
+    <string name="care_guide_hide">Hide details</string>
+    <string name="care_guide_immediate">Immediate steps</string>
+    <string name="care_guide_prevention">Prevention</string>
+    <string name="care_guide_followup">Follow-up plan</string>
+
+    <string name="care_frogeye_summary">Frog eye leaf spot is a fungal disease caused by Botryosphaeria obtusa. It thrives in warm, wet conditions and can reduce photosynthesis significantly.</string>
+    <string name="care_frogeye_step1">Remove and destroy infected leaves immediately to reduce spore spread.</string>
+    <string name="care_frogeye_step2">Apply a labeled fungicide such as captan or thiophanate-methyl.</string>
+    <string name="care_frogeye_step3">Avoid overhead irrigation to keep foliage dry.</string>
+    <string name="care_frogeye_prev1">Prune trees to improve airflow and reduce humidity within the canopy.</string>
+    <string name="care_frogeye_prev2">Rake and dispose of fallen leaves to remove overwintering spores.</string>
+    <string name="care_frogeye_prev3">Use resistant apple varieties when replanting.</string>
+    <string name="care_frogeye_follow1">Recheck leaves every 5-7 days during wet season.</string>
+    <string name="care_frogeye_follow2">Repeat fungicide application as per label directions if symptoms persist.</string>
+
+    <string name="care_powdery_summary">Powdery mildew coats young apple leaves and shoots with a white powdery film. It stunts growth and weakens the tree over time.</string>
+    <string name="care_powdery_step1">Prune and remove visibly infected shoots and leaves.</string>
+    <string name="care_powdery_step2">Apply a sulfur-based or systemic fungicide approved for powdery mildew.</string>
+    <string name="care_powdery_step3">Avoid excessive nitrogen fertilization which promotes susceptible soft growth.</string>
+    <string name="care_powdery_prev1">Choose mildew-resistant apple varieties when possible.</string>
+    <string name="care_powdery_prev2">Maintain good airflow by pruning the canopy annually.</string>
+    <string name="care_powdery_prev3">Monitor new shoots closely in spring when infection risk is highest.</string>
+    <string name="care_powdery_follow1">Inspect every 7 days during the growing season.</string>
+    <string name="care_powdery_follow2">Reapply fungicide after heavy rain if needed.</string>
+
+    <string name="care_rust_summary">Apple rust is caused by Gymnosporangium species. Bright orange spots appear on upper leaf surfaces and cause premature leaf drop.</string>
+    <string name="care_rust_step1">Remove heavily spotted leaves and dispose of them away from the orchard.</string>
+    <string name="care_rust_step2">Apply a fungicide labeled for rust (e.g., myclobutanil or propiconazole) at petal fall.</string>
+    <string name="care_rust_step3">Identify and remove nearby juniper or cedar hosts if possible.</string>
+    <string name="care_rust_prev1">Plant resistant apple cultivars in areas with high rust pressure.</string>
+    <string name="care_rust_prev2">Remove or avoid planting junipers within 300 m of apple trees.</string>
+    <string name="care_rust_prev3">Begin protective fungicide sprays at early bud break each spring.</string>
+    <string name="care_rust_follow1">Monitor leaves weekly from bud break through early summer.</string>
+    <string name="care_rust_follow2">Consult local extension service for timing recommendations in your area.</string>
+
+    <string name="care_scab_summary">Apple scab is one of the most economically important apple diseases caused by Venturia inaequalis. It produces dark, scaly lesions on leaves and fruit.</string>
+    <string name="care_scab_step1">Remove and destroy infected leaves and mummified fruit from the ground.</string>
+    <string name="care_scab_step2">Apply a protectant fungicide (captan, mancozeb) before rain events during primary season.</string>
+    <string name="care_scab_step3">Switch to a systemic fungicide (myclobutanil) if infection has already occurred.</string>
+    <string name="care_scab_prev1">Rake and compost or bury fallen leaves in autumn to destroy overwintering spores.</string>
+    <string name="care_scab_prev2">Use scab-resistant apple varieties when establishing new orchards.</string>
+    <string name="care_scab_prev3">Maintain a strict spray program from green tip through cover sprays.</string>
+    <string name="care_scab_follow1">Monitor trees weekly during wet spring weather.</string>
+    <string name="care_scab_follow2">Keep records of spray timings to evaluate program effectiveness.</string>
+
+    <string name="care_healthy_summary">Your plant appears healthy. Keep it thriving with consistent care.</string>
+    <string name="care_healthy_step1">Continue regular watering and feeding.</string>
+    <string name="care_healthy_step2">Remove any yellowing leaves as they age.</string>
+    <string name="care_healthy_prev1">Monitor weekly for early signs of disease.</string>
+    <string name="care_healthy_prev2">Maintain good spacing and airflow.</string>
+    <string name="care_healthy_follow1">Check again in 7–10 days.</string>
+
+    <string name="care_unknown_summary">We couldn\'t match this to a known condition.</string>
+    <string name="care_unknown_step1">Try a clearer photo of a single leaf in good light.</string>
+    <string name="care_unknown_prev1">Avoid wet foliage and keep plants well spaced.</string>
+    <string name="care_unknown_follow1">If symptoms persist, consult a local expert.</string>
+    <string name="analyzing_leaf">Analyzing leaf…</string>
+    <string name="cd_leaf_image">Captured apple leaf image</string>
+    <string name="confidence_format">Confidence: %.1f%%</string>
+    <string name="disease_details">Disease Details</string>
+    <string name="recommended_action">Recommended Action</string>
+    <string name="all_predictions">All Predictions</string>
+    <string name="no_prediction">No prediction available</string>
+    <string name="no_details_available">No additional details available for this prediction.</string>
+    
+    <!-- Disease Information -->
+    <string name="disease_frogeye">Frog Eye Leaf Spot</string>
+    <string name="disease_powdery">Powdery Mildew</string>
+    <string name="disease_rust">Rust</string>
+    <string name="disease_scab">Scab</string>
+    <string name="disease_healthy">Healthy</string>
+
+    <string name="desc_frogeye">Frog eye leaf spot is a fungal disease caused by Botryosphaeria obtusa. It appears as circular spots with a light tan/white center and a dark purple border, resembling a frog eye. Heavily infected trees may show early defoliation.</string>
+    <string name="desc_powdery">Powdery mildew on apple is caused by Podosphaera leucotricha. It produces a white powdery coating on young leaves and shoots, leading to distorted growth, reduced photosynthesis, and weakened overall tree health.</string>
+    <string name="desc_rust">Apple rust is caused by Gymnosporangium species and appears as bright orange-yellow spots on the upper leaf surface. Rust requires an alternate host (junipers or cedars) to complete its life cycle and can cause significant early leaf drop.</string>
+    <string name="desc_scab">Apple scab, caused by Venturia inaequalis, is one of the most widespread apple diseases. It produces olive-green to dark brown velvety lesions on leaves and fruit, reducing photosynthesis and causing premature defoliation and unmarketable fruit.</string>
+    <string name="desc_healthy">The apple leaf appears healthy. No signs of disease detected. Continue good orchard management practices.</string>
+
+    <string name="treatment_frogeye">Apply fungicides containing captan or thiophanate-methyl. Remove and destroy fallen leaves. Improve canopy airflow through pruning. Reapply fungicide after rain during the growing season.</string>
+    <string name="treatment_powdery">Apply sulfur-based or systemic fungicides (e.g., myclobutanil). Prune infected shoots. Avoid over-fertilizing with nitrogen. Ensure good airflow around the canopy.</string>
+    <string name="treatment_rust">Apply fungicide (myclobutanil or propiconazole) from bud break. Remove nearby juniper or cedar hosts. Remove heavily spotted leaves. Start protective sprays in early spring.</string>
+    <string name="treatment_scab">Apply protectant fungicides (captan or mancozeb) before rain events. Switch to systemic fungicides after infection. Rake and remove fallen leaves in autumn. Maintain a regular spray schedule from green tip through harvest.</string>
+    <string name="treatment_healthy">Continue regular monitoring and maintain good watering, fertilization, and pruning practices to keep the apple tree healthy.</string>
+    
+    <!-- Errors -->
+    <string name="error_camera_permission">Camera permission is required to take photos</string>
+    <string name="error_capture_failed">Capture failed: %s</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+    <string name="error_not_leaf">Not an apple leaf. Please upload a clear apple leaf photo.</string>
+    
+    <!-- Share -->
+    <string name="share_title">Share Disease Detection Result</string>
+    <string name="share_text">Leafivy detected: %1$s with %2$.1f%% confidence.\n\n%3$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_color_theme">Theme Color</string>
+    <string name="settings_color_subtitle">Choose the app\'s primary color</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_dark_system">Follow system</string>
+    <string name="settings_dark_light">Always light</string>
+    <string name="settings_dark_dark">Always dark</string>
+    <string name="settings_dynamic_color">Dynamic Color</string>
+    <string name="settings_dynamic_color_desc">Use colors from wallpaper (Android 12+)</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_subtitle">Choose the app display language</string>
+    <string name="settings_lang_id">Indonesian</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_footer">Pengaturan</string>
+</resources>

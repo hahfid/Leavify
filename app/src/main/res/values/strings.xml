@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Leafivy</string>
+    
+    <!-- Home Screen -->
+    <string name="app_subtitle">Deteksi Penyakit Daun Apel</string>
+    <string name="home_card_title">Identifikasi Penyakit Daun Apel</string>
+    <string name="home_card_subtitle">Ambil foto daun yang jelas untuk hasil paling akurat.</string>
+    <string name="model_settings_title">Pengaturan Model</string>
+    <string name="model_settings_label">Model Penyakit</string>
+    <string name="model_settings_info">Input: %1$dx%2$d x%3$d • %4$s • Kelas: %5$d</string>
+    <string name="model_settings_empty">Tidak ada model ditemukan di aset.</string>
+    <string name="close">Tutup</string>
+    <string name="model_settings_refresh">Muat ulang model</string>
+    <string name="diagnostics_title">Diagnostik</string>
+    <string name="diagnostics_subtitle">Pemeriksaan foto</string>
+    <string name="diagnostics_tip_light">Gunakan cahaya terang dan merata, hindari bayangan keras.</string>
+    <string name="diagnostics_tip_single_leaf">Foto satu daun saja; usahakan latar belakang sederhana.</string>
+    <string name="diagnostics_tip_focus">Tahan stabil agar daun terlihat tajam dan fokus.</string>
+    <string name="diagnostics_tip_fill_frame">Isi sebagian besar bingkai dengan daun.</string>
+    <string name="diagnostics_consensus_low">Model tidak sepakat dengan kuat. Coba foto lain.</string>
+    <string name="diagnostics_consensus_ok">Model menunjukkan kesepakatan yang baik untuk hasil ini.</string>
+    <string name="diagnostics_quality_title">Pengukur kepercayaan</string>
+    <string name="diagnostics_quality_desc">Semakin tinggi berarti model semakin sepakat.</string>
+    <string name="diagnostics_model_version">Versi model: %1$s</string>
+
+    <string name="result_explore_title">Jelajahi langkah selanjutnya</string>
+    <string name="result_chart_title">Grafik kepercayaan</string>
+    <string name="about_privacy_title">Tentang &amp; Privasi</string>
+    <string name="about_title">Tentang Leafivy</string>
+    <string name="about_body">Leafivy membantu mengidentifikasi penyakit daun apel menggunakan machine learning di perangkat. Gambar diproses secara lokal di ponsel Anda.</string>
+    <string name="privacy_title">Privasi</string>
+    <string name="privacy_body">Foto Anda tidak diunggah ke server mana pun oleh aplikasi ini. Tidak perlu akun. Data Anda tetap dalam kendali Anda.</string>
+    <string name="copyright_line">© Hafd</string>
+    <string name="cd_close">Tutup</string>
+    <string name="cd_grid_toggle">Tampilkan grid</string>
+    <string name="btn_take_photo">Ambil Foto</string>
+    <string name="btn_upload_gallery">Unggah dari Galeri</string>
+    <string name="cd_app_logo">Logo aplikasi Leafivy</string>
+    <string name="cd_camera_icon">Ikon kamera</string>
+    <string name="cd_gallery_icon">Ikon galeri</string>
+    
+    <!-- Camera Screen -->
+    <string name="cd_capture_button">Tombol ambil foto</string>
+    <string name="cd_camera_preview">Pratinjau kamera</string>
+    <string name="cd_flash_toggle">Nyalakan/matikan flash</string>
+    
+    <!-- Result Screen -->
+    <string name="btn_analyze_another">Analisis Lagi</string>
+    <string name="btn_back">Kembali</string>
+    <string name="btn_share">Bagikan Hasil</string>
+    <string name="btn_process">Proses Gambar</string>
+    <string name="btn_retake">Ambil Ulang</string>
+    <string name="result_title">Analisis</string>
+    <string name="preview_title">Pratinjau Gambar</string>
+    <string name="preview_hint">Pastikan daun apel terlihat jelas dan tidak buram sebelum memproses. Tekan Proses Gambar untuk memulai analisis.</string>
+    <string name="cd_preview_image">Pratinjau gambar daun apel yang akan dianalisis</string>
+    <string name="error_title">Kami tidak dapat menganalisis foto ini</string>
+    <string name="care_guide_title">Panduan Perawatan</string>
+    <string name="care_guide_show">Tampilkan detail</string>
+    <string name="care_guide_hide">Sembunyikan detail</string>
+    <string name="care_guide_immediate">Langkah segera</string>
+    <string name="care_guide_prevention">Pencegahan</string>
+    <string name="care_guide_followup">Rencana tindak lanjut</string>
+
+    <!-- Frog Eye Leaf Spot -->
+    <string name="care_frogeye_summary">Bercak daun mata katak disebabkan oleh jamur Botryosphaeria obtusa. Gejalanya berupa bercak bulat berdiameter 3–10 mm dengan pusat cokelat terang hingga putih keabu-abuan dan tepi ungu kemerahan yang khas  menyerupai mata katak. Penyakit ini menyebar pesat saat cuaca hangat (24–28 °C) dan lembap, terutama melalui percikan hujan yang membawa spora dari daun maupun kayu mati yang terinfeksi. Serangan berat dapat menyebabkan daun rontok sebelum waktunya sehingga kapasitas fotosintesis pohon menurun drastis.</string>
+    <string name="care_frogeye_step1">Segera petik dan musnahkan (bakar atau kubur) semua daun bergejala agar sumber spora berkurang. Jangan dibiarkan di permukaan tanah.</string>
+    <string name="care_frogeye_step2">Semprotkan fungisida kontak berbahan aktif captan (dosis label) atau thiophanate-methyl segera setelah hujan berhenti. Pastikan seluruh permukaan daun terbasahi merata.</string>
+    <string name="care_frogeye_step3">Hindari menyiram dari atas (overhead irrigation). Gunakan irigasi tetes agar daun tetap kering dan waktu basah (leaf wetness) sesingkat mungkin.</string>
+    <string name="care_frogeye_prev1">Pangkas cabang yang tumpang tindih setiap akhir musim dingin untuk meningkatkan penetrasi cahaya matahari dan aliran udara di dalam kanopi, sehingga daun lebih cepat kering setelah hujan.</string>
+    <string name="care_frogeye_prev2">Kumpulkan dan singkirkan seluruh daun gugur dari bawah pohon di akhir musim panen  daun tersebut adalah reservoir spora utama untuk musim berikutnya.</string>
+    <string name="care_frogeye_prev3">Saat menanam ulang, pilih varietas apel dengan ketahanan terhadap Botryosphaeria, terutama di daerah dengan curah hujan tinggi.</string>
+    <string name="care_frogeye_follow1">Periksa ulang setiap 5–7 hari selama musim hujan. Catat perkembangan bercak baru; jika meluas, segera ulangi aplikasi fungisida.</string>
+    <string name="care_frogeye_follow2">Jika setelah 2 kali penyemprotan fungisida kontak gejala masih meluas, beralih ke fungisida sistemik (misalnya myclobutanil) dan konsultasikan jadwal rotasi bahan aktif untuk mencegah resistensi.</string>
+
+    <!-- Powdery Mildew -->
+    <string name="care_powdery_summary">Embun tepung apel disebabkan oleh jamur Podosphaera leucotricha yang bersifat obligat (hanya hidup pada jaringan hidup). Berbeda dengan jamur lain, penyakit ini justru berkembang optimal pada kondisi kering, hangat (20–27 °C), dan ternaungi  kelembapan tinggi justru menghambatnya. Gejalanya berupa lapisan putih seperti tepung yang melapisi tunas, daun muda, dan tangkai bunga. Daun yang terinfeksi tampak menggulung ke atas dan mengeras (distorsi). Spora (konidia) menyebar melalui angin. Infeksi berat di awal musim dapat merusak titik tumbuh dan menghambat perkembangan buah secara signifikan.</string>
+    <string name="care_powdery_step1">Pangkas dan buang semua tunas serta ranting yang menunjukkan lapisan putih. Lakukan sebelum cuaca panas agar spora tidak terbang lebih jauh.</string>
+    <string name="care_powdery_step2">Semprotkan fungisida berbasis sulfur atau bahan aktif sistemik (myclobutanil, trifloxystrobin) saat bunga mulai mekar hingga ukuran buah sebesar kelereng. Hindari penyemprotan sulfur saat suhu di atas 32 °C karena berisiko membakar daun.</string>
+    <string name="care_powdery_step3">Kurangi dosis pupuk nitrogen  pertumbuhan jaringan lunak yang berlebihan akibat nitrogen tinggi sangat rentan terinfeksi embun tepung.</string>
+    <string name="care_powdery_prev1">Pilih varietas apel yang toleran atau tahan embun tepung, terutama untuk penanaman baru di dataran tinggi yang sering berawan dan ternaungi.</string>
+    <string name="care_powdery_prev2">Lakukan pemangkasan pembentukan kanopi terbuka setiap tahun agar sinar matahari masuk merata  cahaya UV menekan perkembangan jamur ini.</string>
+    <string name="care_powdery_prev3">Pantau tunas baru di awal musim semi dengan seksama. Infeksi dini lebih mudah dikendalikan daripada yang sudah meluas ke seluruh tajuk.</string>
+    <string name="care_powdery_follow1">Evaluasi kembali setiap 7 hari selama masa pertumbuhan aktif (bunga  buah muda). Catat persentase tunas terinfeksi sebagai indikator keparahan.</string>
+    <string name="care_powdery_follow2">Setelah hujan deras, ulangi aplikasi fungisida karena residu terbilang rendah. Rotasikan bahan aktif setiap 2–3 aplikasi untuk mencegah resistensi jamur.</string>
+
+    <!-- Rust -->
+    <string name="care_rust_summary">Karat apel disebabkan oleh Gymnosporangium juniperi-virginianae (dan spesies Gymnosporangium lainnya). Penyakit ini bersifat heteroecious  membutuhkan dua inang berbeda untuk menyelesaikan siklus hidupnya: apel (tahap aecial) dan juniper/cedar (tahap telial). Gejala pada apel berupa bercak kuning-oranye cerah berdiameter 3–10 mm di permukaan atas daun, yang di permukaan bawahnya akan berkembang menjadi tabung-tabung kecil berwarna oranye (aecia) penghasil spora. Infeksi terjadi di musim semi saat suhu 10–21 °C dan daun basah minimal 6 jam. Serangan berat menyebabkan defoliasi dini dan melemahkan pertumbuhan buah.</string>
+    <string name="care_rust_step1">Segera buang daun bergejala berat (bercak oranye menutupi &gt;30% permukaan) agar sumber spora berkurang. Buang jauh dari area kebun.</string>
+    <string name="care_rust_step2">Semprotkan fungisida sistemik berlabel untuk karat  myclobutanil atau propiconazole  mulai dari fase ujung hijau (green tip) hingga 2 minggu setelah kelopak gugur. Ini adalah jendela perlindungan kritis.</string>
+    <string name="care_rust_step3">Identifikasi tanaman juniper atau cedar di sekitar kebun dalam radius 300 m. Jika memungkinkan, singkirkan atau isolasi tanaman tersebut untuk memutus siklus hidup jamur.</string>
+    <string name="care_rust_prev1">Tanam kultivar apel dengan ketahanan terhadap karat (misalnya Liberty, Redfree) terutama di kebun yang berdekatan dengan tanaman juniper.</string>
+    <string name="care_rust_prev2">Jauhkan atau hindari menanam juniper dan cedar dalam radius 300 m dari pohon apel. Pangkas empu (gall) berwarna oranye berbentuk agar-agar di ranting juniper sebelum musim semi untuk mengurangi sumber spora.</string>
+    <string name="care_rust_prev3">Mulai program penyemprotan fungisida pelindung sejak tunas mulai membengkak (silver tip) setiap awal musim semi  jangan menunggu gejala muncul.</string>
+    <string name="care_rust_follow1">Pantau permukaan atas daun setiap minggu sejak tunas pecah hingga pertengahan musim panas. Bercak awal berukuran seperti titik kuning; tangani sebelum berkembang menjadi aecia.</string>
+    <string name="care_rust_follow2">Konsultasikan dengan penyuluh pertanian setempat untuk mengetahui kalender penyemprotan yang tepat berdasarkan kondisi cuaca daerah Anda, karena timing sangat menentukan efektivitas pengendalian.</string>
+
+    <!-- Scab -->
+    <string name="care_scab_summary">Kudis apel disebabkan oleh jamur Venturia inaequalis dan merupakan penyakit apel paling penting secara ekonomi di seluruh dunia. Gejala awal berupa bercak hijau-zaitun berbatas tidak jelas di permukaan daun, yang kemudian menggelap menjadi lesi cokelat-hitam seperti beludru seiring pematangan spora (konidia). Pada serangan berat, daun menguning dan rontok sebelum waktunya. Patogen melewati musim dingin sebagai pseudothecia di daun gugur, kemudian melepas spora askus saat musim semi ketika suhu 6–24 °C dengan daun basah minimal 9–17 jam (sesuai tabel Mills). Buah yang terinfeksi menjadi tidak layak jual dengan permukaan bersisik dan retak.</string>
+    <string name="care_scab_step1">Kumpulkan dan musnahkan daun serta buah yang menunjukkan gejala kudis. Kuburkan atau bakar  jangan dijadikan kompos karena spora dapat bertahan.</string>
+    <string name="care_scab_step2">Semprotkan fungisida kontak (captan atau mancozeb) sebelum hujan turun sebagai perlindungan. Jika infeksi sudah terjadi (daun basah &gt;6 jam), segera beralih ke fungisida sistemik (myclobutanil, difenoconazole) dalam 72 jam setelah infeksi untuk efek kuratif.</string>
+    <string name="care_scab_step3">Ikuti jadwal penyemprotan dari fase ujung hijau (green tip) hingga penyemprotan penutup (cover spray) setelah kelopak gugur. Jangan ada celah penyemprotan saat musim hujan di musim semi.</string>
+    <string name="care_scab_prev1">Sapu bersih dan singkirkan seluruh daun gugur di akhir musim panen. Ini langkah pencegahan paling efektif karena menghancurkan sumber infeksi musim berikutnya.</string>
+    <string name="care_scab_prev2">Gunakan varietas apel tahan kudis (Florina, Topaz, Prima) saat mendirikan kebun baru, terutama di daerah dengan curah hujan musim semi yang tinggi.</string>
+    <string name="care_scab_prev3">Pertahankan sirkulasi udara kanopi yang baik melalui pemangkasan tahunan agar daun cepat kering  waktu basah daun yang pendek adalah kunci pencegahan.</string>
+    <string name="care_scab_follow1">Pantau pohon setiap minggu selama musim semi yang basah. Perhatikan bercak hijau kecil di permukaan bawah daun muda  itulah tanda infeksi dini sebelum spora matang.</string>
+    <string name="care_scab_follow2">Catat tanggal dan dosis setiap penyemprotan. Evaluasi efektivitas di akhir musim: jika lebih dari 5% daun terinfeksi, tinjau ulang jadwal dan pilihan bahan aktif untuk musim berikutnya.</string>
+
+    <!-- Healthy -->
+    <string name="care_healthy_summary">Daun apel tampak sehat  tidak ditemukan tanda-tanda infeksi jamur, bercak, perubahan warna abnormal, maupun distorsi jaringan. Pertahankan kondisi ini dengan praktik budidaya yang konsisten dan pemantauan berkala.</string>
+    <string name="care_healthy_step1">Lanjutkan jadwal penyiraman dan pemupukan berimbang (N-P-K sesuai fase pertumbuhan). Hindari pemupukan nitrogen berlebihan di akhir musim yang mendorong pertumbuhan lunak dan rentan penyakit.</string>
+    <string name="care_healthy_step2">Buang daun yang menguning karena penuaan alami agar tidak menjadi tempat berkembang cendawan oportunistik.</string>
+    <string name="care_healthy_prev1">Pantau seluruh pohon setiap minggu  periksa permukaan atas dan bawah daun, terutama daun muda di pucuk tunas yang paling rentan terinfeksi.</string>
+    <string name="care_healthy_prev2">Jaga jarak tanam dan sirkulasi udara yang baik; kanopi yang terlalu rapat menciptakan iklim mikro lembap yang mendukung perkembangan hampir semua penyakit daun.</string>
+    <string name="care_healthy_follow1">Periksa kembali dalam 7–10 hari. Jika mulai muncul bercak kecil atau perubahan warna yang mencurigakan, segera foto dan analisis ulang untuk penanganan sedini mungkin.</string>
+
+    <!-- Unknown -->
+    <string name="care_unknown_summary">Kami tidak dapat mencocokkan ini dengan kondisi yang diketahui.</string>
+    <string name="care_unknown_step1">Coba foto yang lebih jelas dari satu daun dalam cahaya yang baik.</string>
+    <string name="care_unknown_prev1">Hindari dedaunan basah dan jaga jarak tanam yang baik.</string>
+    <string name="care_unknown_follow1">Jika gejala bertahan, konsultasikan dengan ahli setempat.</string>
+
+    <string name="analyzing_leaf">Menganalisis daun…</string>
+    <string name="cd_leaf_image">Gambar daun apel yang diambil</string>
+    <string name="confidence_format">Kepercayaan: %.1f%%</string>
+    <string name="disease_details">Detail Penyakit</string>
+    <string name="recommended_action">Tindakan yang Disarankan</string>
+    <string name="all_predictions">Semua Prediksi</string>
+    <string name="no_prediction">Tidak ada prediksi tersedia</string>
+    <string name="no_details_available">Tidak ada detail tambahan tersedia untuk prediksi ini.</string>
+    
+    <!-- Disease Information -->
+    <string name="disease_frogeye">Bercak Daun Mata Katak</string>
+    <string name="disease_powdery">Embun Tepung</string>
+    <string name="disease_rust">Karat</string>
+    <string name="disease_scab">Kudis</string>
+    <string name="disease_healthy">Sehat</string>
+
+    <string name="desc_frogeye">Bercak daun mata katak (Frog Eye Leaf Spot) disebabkan oleh jamur Botryosphaeria obtusa. Gejalanya khas: bercak bulat berdiameter 3–10 mm dengan pusat cokelat muda hingga putih keabu-abuan dan cincin tepi berwarna ungu kemerahan  tampilannya memang menyerupai mata katak. Pada serangan lanjut, bercak-bercak ini bergabung membentuk area nekrotik yang lebih besar. Jamur ini juga menyerang buah dan kayu, menyebabkan busuk buah (black rot) dan kanker batang. Penyakit menyebar melalui spora yang terbawa percikan hujan dari kayu mati maupun daun terinfeksi. Infeksi berat di musim panas dapat menyebabkan defoliasi prematur yang melemahkan cadangan energi pohon untuk musim berikutnya.</string>
+    <string name="desc_powdery">Embun tepung apel (Powdery Mildew) disebabkan oleh Podosphaera leucotricha, jamur parasit obligat yang hanya dapat hidup pada jaringan hidup. Ciri utamanya adalah lapisan putih seperti bedak yang menutupi daun muda, tunas, dan kadang tangkai bunga. Daun yang terinfeksi tampak menggulung ke atas memanjang (epinasty) dengan permukaan tampak kaku dan mengkilap sebelum tertutup miselium. Berbeda dengan sebagian besar penyakit jamur, embun tepung justru berkembang baik dalam kondisi kering dan hangat (20–27 °C) karena konidia tidak memerlukan air bebas untuk berkecambah  cukup kelembapan udara relatif 50–70%. Infeksi berat di awal musim dapat merusak titik tumbuh permanen dan menekan pembentukan buah.</string>
+    <string name="desc_rust">Karat apel (Apple Rust) disebabkan oleh Gymnosporangium juniperi-virginianae. Penyakit ini unik karena bersifat heteroecious  memerlukan dua inang yang berbeda: apel untuk fase spora aseksual (aecia) dan tanaman juniper atau cedar untuk fase spora seksual (telia). Pada daun apel, gejala berupa bercak kuning-oranye terang di permukaan atas, dengan bagian bawah yang kemudian tumbuh struktur berbentuk tabung oranye kecil (aecia) penghasil spora. Infeksi terjadi di musim semi saat suhu 10–21 °C dengan daun basah minimal 6 jam. Meski jarang mematikan pohon dewasa secara langsung, defoliasi dini akibat karat mengurangi akumulasi karbohidrat sehingga ukuran dan kualitas panen musim berikutnya menurun.</string>
+    <string name="desc_scab">Kudis apel (Apple Scab) disebabkan oleh Venturia inaequalis dan secara konsisten menjadi penyakit apel paling merusak secara ekonomi di seluruh dunia. Infeksi primer dimulai di musim semi dari spora askus yang matang di daun gugur tahun lalu. Gejala awal berupa bercak hijau-zaitun berbatas tidak jelas di permukaan bawah daun yang kemudian meluas ke permukaan atas dengan warna cokelat-hitam dan tekstur seperti beludru. Daun yang terinfeksi berat menguning dan rontok sebelum waktunya. Pada buah, kudis menyebabkan permukaan berbintik hitam dan retak sehingga buah tidak layak jual. Severitas penyakit sangat ditentukan oleh cuaca musim semi: semakin sering hujan dan semakin lama daun basah, semakin tinggi risiko infeksi.</string>
+    <string name="desc_healthy">Daun apel tampak sehat. Warna hijau merata, tidak ditemukan bercak, lapisan mencurigakan, distorsi jaringan, maupun tanda-tanda serangan penyakit atau hama. Kondisi ini menunjukkan pohon sedang tumbuh dalam kondisi optimal. Pertahankan dengan pemantauan rutin mingguan, pemupukan berimbang, pemangkasan tahunan, dan pengelolaan drainase yang baik untuk mencegah kelembapan berlebih di sekitar kanopi.</string>
+
+    <string name="treatment_frogeye">Langkah utama: semprotkan fungisida captan atau thiophanate-methyl segera setelah hujan, pastikan seluruh permukaan daun terbasahi. Buang dan musnahkan daun bergejala serta daun gugur di bawah pohon sebagai sumber spora. Untuk serangan berat, rotasikan ke fungisida sistemik (myclobutanil) setelah 2–3 aplikasi fungisida kontak. Tingkatkan sirkulasi udara kanopi melalui pemangkasan untuk mempercepat pengeringan daun setelah hujan.</string>
+    <string name="treatment_powdery">Semprotkan fungisida berbasis sulfur (hindari saat suhu &gt;32 °C) atau sistemik seperti myclobutanil/trifloxystrobin mulai fase bunga mekar hingga buah muda. Pangkas dan buang semua tunas bergejala sebelum spora menyebar. Kurangi pupuk nitrogen untuk menekan pertumbuhan jaringan lunak yang rentan. Pastikan kanopi terbuka dengan pemangkasan tahunan agar cahaya matahari masuk merata.</string>
+    <string name="treatment_rust">Semprotkan fungisida sistemik (myclobutanil atau propiconazole) mulai fase ujung hijau (green tip) hingga 2 minggu setelah kelopak gugur  ini jendela kritis pencegahan. Buang daun dengan bercak oranye berat. Identifikasi dan singkirkan tanaman juniper/cedar dalam radius 300 m sebagai langkah jangka panjang. Pada juniper yang tidak bisa dihilangkan, pangkas dan buang gall (empu) berwarna oranye di musim dingin sebelum spora dilepas.</string>
+    <string name="treatment_scab">Terapkan program penyemprotan konsisten dari fase ujung hijau hingga cover spray setelah kelopak gugur. Gunakan fungisida kontak (captan, mancozeb) sebelum hujan sebagai protektan; beralih ke fungisida sistemik (myclobutanil, difenoconazole) dalam 72 jam setelah infeksi untuk efek kuratif. Kumpulkan dan musnahkan seluruh daun gugur di akhir musim  ini langkah pencegahan paling kritis. Pertahankan kanopi yang terbuka dan sirkulasi udara baik.</string>
+    <string name="treatment_healthy">Pertahankan kondisi sehat dengan pemantauan mingguan (periksa permukaan atas dan bawah daun), jadwal penyiraman dan pemupukan berimbang, pemangkasan tahunan untuk sirkulasi udara optimal, serta kebersihan kebun dari daun dan buah gugur yang dapat menjadi sumber penyakit.</string>
+    
+    <!-- Errors -->
+    <string name="error_camera_permission">Izin kamera diperlukan untuk mengambil foto</string>
+    <string name="error_capture_failed">Pengambilan gagal: %s</string>
+    <string name="error_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="error_not_leaf">Bukan daun apel. Silakan unggah foto daun apel yang jelas.</string>
+    
+    <!-- Share -->
+    <string name="share_title">Bagikan Hasil Deteksi Penyakit</string>
+    <string name="share_text">Leafivy mendeteksi: %1$s dengan kepercayaan %2$.1f%%.\n\n%3$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_color_theme">Warna Tema</string>
+    <string name="settings_color_subtitle">Pilih warna utama aplikasi</string>
+    <string name="settings_dark_mode">Mode Gelap</string>
+    <string name="settings_dark_system">Ikuti sistem</string>
+    <string name="settings_dark_light">Selalu terang</string>
+    <string name="settings_dark_dark">Selalu gelap</string>
+    <string name="settings_dynamic_color">Warna Dinamis</string>
+    <string name="settings_dynamic_color_desc">Gunakan warna dari wallpaper (Android 12+)</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_language_subtitle">Pilih bahasa tampilan aplikasi</string>
+    <string name="settings_lang_id">Indonesia</string>
+    <string name="settings_lang_en">Inggris</string>
+    <string name="settings_footer">Pengaturan</string>
+</resources>

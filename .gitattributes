@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.tflite binary
+*.jar binary
+*.keystore binary
+
+*.bat text eol=crlf
+*.sh text eol=lf
